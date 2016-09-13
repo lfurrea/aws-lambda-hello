@@ -1,7 +1,7 @@
 ---
 project: aws-hello
 default-region: us-east-1
-code-bucket: grist-apigateway-0do1mc7
+code-bucket: grist-apigateway-001
 apps:
   - gordon.contrib.lambdas
   - helloworld

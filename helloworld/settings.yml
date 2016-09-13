@@ -1,0 +1,5 @@
+lambdas:
+
+  hellopy:
+    description: Simple Lambda which says hello
+    code: hellopy.py

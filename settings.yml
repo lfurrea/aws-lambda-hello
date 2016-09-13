@@ -1,0 +1,16 @@
+---
+project: aws-hello
+default-region: us-east-1
+code-bucket: grist-apigateway-0do1mc7
+apps:
+  - gordon.contrib.lambdas
+  - helloworld
+
+apigateway:
+  helloapi:
+    description: My very first API from cicd
+    resources:
+      /:
+        methods: GET
+        integration:
+          lambda: helloworld.hellopy

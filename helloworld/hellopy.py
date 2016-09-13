@@ -1,4 +1,4 @@
 def handler(event, context):
   print('Loading function')
   print(event)
-  return "Hello World4!"
+  return "Hello World Hydrate team!"

@@ -11,6 +11,6 @@ apigateway:
     description: My very first API from cicd
     resources:
       /:
-        methods: GET
+        methods: [GET, POST]
         integration:
           lambda: helloworld.hellopy
